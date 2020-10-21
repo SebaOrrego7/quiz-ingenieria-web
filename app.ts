@@ -43,43 +43,43 @@ function menu(id: string) {
 
   if (id == 'mujer') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en mujer';
-    document.body.style.backgroundColor = "FF0087";// rosado
+    document.body.style.backgroundColor = "#FF0087";// rosado
   }
   if (id == 'ropadep') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en ropa deportiva para mujer';
-    document.body.style.backgroundColor = "FF0087";// rosado
+    document.body.style.backgroundColor = "#FF0087";// rosado
   }
   if (id == 'accesorios') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en accesorios para mujer';
-    document.body.style.backgroundColor = "FF0087";// rosado
+    document.body.style.backgroundColor = "#FF0087";// rosado
   }
   if (id == 'zapatos') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en zapatos para mujer';
-    document.body.style.backgroundColor = "FF0087";// rosado
+    document.body.style.backgroundColor = "#FF0087";// rosado
   }
   if (id == 'ofertas') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en oferta para mujer';
-    document.body.style.backgroundColor = "FF0087";// rosado
+    document.body.style.backgroundColor = "#FF0087";// rosado
   }
   if (id == 'hombre') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en hombre';
-    document.body.style.backgroundColor = "FFFC00";// amarillo
+    document.body.style.backgroundColor = "#FFFC00";// amarillo
   }
   if (id == 'ropadephombre') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en ropa deportiva de hombre';
-    document.body.style.backgroundColor = "FFFC00";// amarillo
+    document.body.style.backgroundColor = "#FFFC00";// amarillo
   }
   if (id == 'zapatoshombre') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en zapatos de hombre';
-    document.body.style.backgroundColor = "FFFC00";// amarillo
+    document.body.style.backgroundColor = "#FFFC00";// amarillo
   }
   if (id == 'ofertashombre') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en las ofertas para hombre';
-    document.body.style.backgroundColor = "FFFC00";// amarillo
+    document.body.style.backgroundColor = "#FFFC00";// amarillo
   }
   if (id == 'accesorioshombre') {
     document!.getElementById("imprimir")!.innerHTML = 'Usted se encuentra en accesorios para hombre';
-    document.body.style.backgroundColor = "FFFC00";// amarillo
+    document.body.style.backgroundColor = "#FFFC00";// amarillo
   }
 }
 
