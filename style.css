@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: dimgray;
+}
+
+#navbar a {
+    color: #f6f7f8;
+    background: #7289da;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    /*Color estilo cuando se pasa el mouse encima */
+    background-color: #99aab5;
+}
+
+#navbar li {
+    /* largo del navbar y alineacion */
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#navbar ul {
+    /* estilo de la lista*/
+    list-style: none;
+    display: flex;
+}
+
+#navbar li:hover .sub>li {
+    /* subsesion desplegable*/
+    display: block;
+    top: 0px;
+}
+
+.sub {
+    /* despliegue en columna subsesion*/
+    display: flex;
+    flex-direction: column;
+}
+
+.sub li {
+    /*se despliega la subcategoria*/
+    display: none;
+    position: absolute;
+    top: 0px;
+}

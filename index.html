@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sebastián Orrego Álvarez">
+    <meta name="description" content="Menú de navegación">
+    <meta name="keywords" content="Barra de navegación,tienda,productos">
+    <script src="https://kit.fontawesome.com/0767c6ff52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz ingenieria web</title>
+</head>
+
+<body>
+    <script src="/web/js/app.js"></script>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="#" id="electro" onclick="menu('electro')">Electro 
+          <span class="arrow"><i class="fas fa-caret-down"></i></span></a>
+                <ul class="sub">
+                    <li>
+                        <a href="#" id="televisores" onclick="menu('televisores')">Televisores</a>
+                    </li>
+                    <li>
+                        <a href="#" id="audio" onclick="menu('audio')">Audio</a>
+                    </li>
+                    <li>
+                        <a href="#" id="marca" onclick="menu('marca')">Marca Destacada</a>
+                    </li>
+                </ul>
+                <!--submenu-electro-->
+            </li>
+            <li>
+                <a href="#" id="dormitorio" onclick="menu('dormitorio')">Dormitorio
+          <span class="arrow"><i class="fas fa-caret-down"></i></span></a>
+                <ul class="sub">
+                    <li>
+                        <a href="#" id="ropa" onclick="menu('ropa')">Ropa de camas</a>
+                    </li>
+                    <li>
+                        <a href="#" id="camas" onclick="menu('camas')">camas</a>
+                    </li>
+                    <li>
+                        <a href="#" id="muebles" onclick="menu('muebles')">Muebles de dormitorio</a>
+                    </li>
+                    <li>
+                        <a href="#" id="colchones" onclick="menu('colchones')">Colchones</a>
+                    </li>
+                </ul>
+                <!--submenu-dormitorio-->
+            </li>
+            <li>
+                <a href="#" id="mujer" onclick="menu('mujer')">Mujer
+          <span class="arrow"><i class="fas fa-caret-down"></i></span></a>
+                <ul class="sub">
+                    <li>
+                        <a href="#" id="ropadep" onclick="menu('ropadep')">Ropa deportiva</a>
+                    </li>
+                    <li>
+                        <a href="#" id="accesorios" onclick="menu('accesorios')">Accesorios</a>
+                    </li>
+                    <li>
+                        <a href="#" id="zapatos" onclick="menu('zapatos')">Zapatos</a>
+                    </li>
+                    <li>
+                        <a href="#" id="ofertas" onclick="menu('ofertas')">Ofertas</a>
+                    </li>
+                </ul>
+                <!--submenu-mujer-->
+            </li>
+            <li>
+                <a href="#" id="hombre" onclick="menu('hombre')">Hombre
+          <span class="arrow"><i class="fas fa-caret-down"></i></span></a>
+                <ul class="sub">
+                    <li>
+                        <a href="#" id="ropadephombre" onclick="menu('ropadephombre')">Ropa deportiva</a>
+                    </li>
+                    <li>
+                        <a href="#" id="zapatoshombre" onclick="menu('zapatoshombre')">Zapatos</a>
+                    </li>
+                    <li>
+                        <a href="#" id="ofertashombre" onclick="menu('ofertashombre')">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#" id="accesorioshombre" onclick="menu('accesorioshombre')">Accesorios</a>
+                    </li>
+                </ul>
+                <!--submenu-hombre-->
+            </li>
+        </ul>
+    </nav>
+    <div class="container text-center">
+        <h1 id="imprimir" class="display-3">texto</h1>
+    </div>
+    <script>
+    </script>
+
+</body>
+
+</html>
